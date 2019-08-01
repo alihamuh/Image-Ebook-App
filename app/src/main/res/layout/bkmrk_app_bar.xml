@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookMark">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/bk_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/bkmrk_content" />
+
+    <Button
+        android:id="@+id/bkmrk_delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="#ab0000"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="serif-monospace"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bkmrk_cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:backgroundTint="#03ff10"
+        android:layout_margin="25dp"
+        android:fontFamily="serif-monospace"
+        android:text="cancel"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

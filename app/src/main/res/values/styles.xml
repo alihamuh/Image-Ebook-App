@@ -1,0 +1,91 @@
+<resources>
+
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+
+        <item name="android:background">#FFC20096</item>
+
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NewAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="settingTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFC20096</item>
+        <item name="colorAccent">#FFC20096</item>
+    </style>
+
+
+    <!-- For converting Relative Layout to act like a Button-->
+    <style name="ButtonStyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@drawable/juz_btn_selector</item>
+        <item name="android:textSize">@dimen/tab_text</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <!-- For the English TextViews inside the converted Layout-->
+    <style name="btnTxtViewStyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:paddingLeft">10dp</item>>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- For Arabic Text View inside the converted Layout-->
+    <style name="arbBtnTxtViewStyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">29dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">0.7</item>
+        <item name="android:focusable">true</item>
+
+    </style>
+
+
+    <!-- For Buttons on main page-->
+    <style name="IntroPgBtnTheme" parent="@android:style/Widget.Button">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/btn_margin</item>
+        <item name="android:textColor">#5b5a5a</item>
+        <item name="android:textSize">20dp</item>
+        <item name="books.urdu.alihamuh.urdubooks3:typefaceAsset">fonts/alvi.ttf</item>
+        <item name="android:layout_width">190dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@drawable/juz_btn_selector</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="NavigationTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--button 1-->
+<LinearLayout style="@style/ButtonStyle"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/engBtn"
+        style="@style/btnTxtViewStyle"
+
+        android:text="urdu2"
+   />
+
+    <books.urdu.alihamuh.urdubooks3.FontText
+        android:id="@+id/arbBtn"
+        style="@style/arbBtnTxtViewStyle"
+        android:text="urdu2"
+        custom:typefaceAsset="fonts/muhammadi.ttf"
+    />
+
+
+</LinearLayout>

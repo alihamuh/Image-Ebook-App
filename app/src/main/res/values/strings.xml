@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Mushaf</string>
+    <string name="action_settings">Settings</string>
+    <string name="resume_btn">Resume</string>
+    <string name="juz_btn">Juz</string>
+    <string name="surah_btn">Surah</string>
+    <string name="pg_num">Page</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_go">Go</string>
+    <string name="dialog_hint">1-57</string>
+
+    <string name="start">شروع سے پڑھیں</string>
+    <string name="resume">پڑھنا جاری رکھیں</string>
+    <string name="share">شیئر کریں</string>
+    <string name="rate">ریٹ کریں</string>
+    <string name="settings">سیٹینگ/ترتیبات</string>
+    <string name="page">صفحہ پر جاِئیں</string>
+    <string name="donate">ہماری مدد کریں</string>
+    <string name="about">ہمارے بارے میں</string>
+    <string name="bookmark">بک مارک</string>
+
+
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_nightmode_screen">NightMode</string>
+    <string name="Nightmode_on_off">nightmode_is_on</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="About_us">Muhammad Ali Apps \n <b>email:</b> alihamuh@gmail.com \n <b>phone:</b> +92-311-075-8144</string>
+    <!--string name="about"><b>About us:</b></string-->
+
+    <string name="NightMode_Key">nightmode_on_off</string>
+    <string name="NightMode_Title">Night Mode</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_contents">Contents</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!-- fake ads-->
+    <!--string name="shehrzat_main_inter_ad">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="shehrzat_main_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="shehrzat_page_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string-->
+
+    <!--orignal ads-->
+    <string name="shehrzat_main_inter_ad">ca-app-pub-4487355027048563/6834098364</string>
+    <string name="shehrzat_main_banner_ad">ca-app-pub-4487355027048563/9364769226</string>
+    <string name="shehrzat_page_banner_ad">ca-app-pub-4487355027048563/8147180036</string>
+    <string name="ad_app_id">ca-app-pub-4487355027048563~8527302763</string>
+
+</resources>

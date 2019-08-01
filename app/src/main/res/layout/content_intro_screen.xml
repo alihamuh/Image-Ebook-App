@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_intro_layout"
+    android:background="@drawable/sher_zaat_main_page">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <books.urdu.alihamuh.urdubooks3.ButtonPlus
+                    android:id="@+id/resume_btn"
+                    android:text="@string/start"
+                    android:onClick="Start"
+                    style="@style/IntroPgBtnTheme"
+                    />
+
+
+                <books.urdu.alihamuh.urdubooks3.ButtonPlus
+                    android:id="@+id/surah_btn"
+                    android:text="@string/resume"
+                    android:onClick="Resume"
+                    style="@style/IntroPgBtnTheme"
+                    />
+
+                <books.urdu.alihamuh.urdubooks3.ButtonPlus
+                    android:id="@+id/setting_btn"
+                    android:text="@string/settings"
+                    android:onClick="Setting"
+                    style="@style/IntroPgBtnTheme"
+                    />
+
+                <books.urdu.alihamuh.urdubooks3.ButtonPlus
+                    android:id="@+id/bkmark_btn"
+                    android:text="@string/bookmark"
+                    android:onClick="Bookmark"
+                    style="@style/IntroPgBtnTheme"
+                    />
+
+                <books.urdu.alihamuh.urdubooks3.ButtonPlus
+                    android:id="@+id/share_btn"
+                    android:text="@string/share"
+                    android:onClick="Share"
+                    style="@style/IntroPgBtnTheme"
+                />
+                <books.urdu.alihamuh.urdubooks3.ButtonPlus
+                    android:id="@+id/rate_btn"
+                    android:text="@string/rate"
+                    android:onClick="Rate"
+                    style="@style/IntroPgBtnTheme"
+                />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookMark">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorPrimary"
+        android:gravity="start"
+        android:layout_gravity="top"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <android.support.v7.widget.ActionMenuView
+            android:id="@+id/amvMenu"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/activity_main_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/seebar_layout"
+        android:layout_height="100dp"
+        android:layout_above="@+id/page_adView"
+        android:orientation="vertical"
+        android:alpha="0.9"
+        android:background="#000"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/page_adView"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/pageNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="143"
+            android:textSize="20dp"/>
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/pageChangerSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/page_adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/shehrzat_page_banner_ad">
+
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</RelativeLayout>
